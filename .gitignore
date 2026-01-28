@@ -1,0 +1,51 @@
+# ---- Node Backend ----
+node_modules/
+dist/
+build/
+coverage/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# ---- Backend Config ----
+.env
+.env.local
+.env*.local
+*.key
+
+# ---- Mongo / Data ----
+/data/db
+*.lock
+
+# ---- React Frontend ----
+client/node_modules/
+client/build/
+client/dist/
+client/.env
+client/.env.local
+client/.env*.local
+
+# ---- Vite (if using) ----
+client/.vite/
+
+# ---- TypeScript ----
+*.tsbuildinfo
+
+# ---- Docker ----
+*.pid
+docker-volume/
+
+# ---- OS / System ----
+.DS_Store
+Thumbs.db
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.swp
+
+# ---- Misc ----
+*.tgz
+*.gz
