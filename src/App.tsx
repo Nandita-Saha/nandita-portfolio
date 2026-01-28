@@ -1,6 +1,7 @@
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
 import { Highlight } from './components/Highlight';
+import { Experience } from './components/Experience';
 import { Projects } from './components/Projects';
 import { TechStack } from './components/TechStack';
 import { ContactMe } from './components/ContactMe';
@@ -13,6 +14,7 @@ export default function App() {
       <Navigation />
       <Hero />
       <Highlight />
+      <Experience />
       <Projects />
       <TechStack />
       <ContactMe />

@@ -47,7 +47,7 @@ export function Navigation() {
             <div className="flex flex-col">
               <button
                 onClick={() => scrollToSection('hero')}
-                className="nav-brand text-lg md:text-xl font-bold transition-opacity"
+                className="nav-brand text-lg md:text-xl font-bold transition-opacity cursor-pointer"
               >
                 Nandita Saha
               </button>
@@ -59,7 +59,7 @@ export function Navigation() {
                 <button
                   key={link.id}
                   onClick={() => scrollToSection(link.id)}
-                  className="nav-link px-3 lg:px-4 py-2 text-sm font-medium"
+                  className="nav-link px-3 lg:px-4 py-2 text-sm font-medium cursor-pointer"
                 >
                   {link.label}
                 </button>
@@ -69,7 +69,7 @@ export function Navigation() {
             {/* Mobile Menu Button */}
             <button
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              className="md:hidden p-2 text-gray-300 hover:text-white"
+              className="md:hidden p-2 text-gray-300 hover:text-white cursor-pointer"
             >
               {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
             </button>
@@ -89,7 +89,7 @@ export function Navigation() {
                   <button
                     key={link.id}
                     onClick={() => scrollToSection(link.id)}
-                    className="nav-link px-4 py-3 text-left text-sm font-medium hover:bg-white/5"
+                    className="nav-link px-4 py-3 text-left text-sm font-medium hover:bg-white/5 cursor-pointer"
                   >
                     {link.label}
                   </button>

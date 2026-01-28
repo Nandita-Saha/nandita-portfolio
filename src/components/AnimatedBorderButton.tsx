@@ -5,7 +5,7 @@ const AnimatedBorderButton = ({ children, onClick, className = '' }: { children:
     return (
         <button
             onClick={onClick}
-            className={`relative group px-8 py-4 rounded-full bg-black text-white font-bold text-lg overflow-hidden ${className}`}
+            className={`relative group px-8 py-4 rounded-full bg-black text-white font-bold text-lg overflow-hidden cursor-pointer ${className}`}
             style={{ boxShadow: '0 10px 15px -3px rgba(52, 211, 153, 0.2)' }}
         >
             <svg className="absolute inset-0 w-full h-full pointer-events-none">

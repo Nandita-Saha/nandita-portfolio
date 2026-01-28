@@ -1,0 +1,64 @@
+[
+    {
+        "category": "Frontend",
+        "technologies": [
+            "React",
+            "Next.js",
+            "TypeScript",
+            "JavaScript (ES6+)",
+            "HTML5",
+            "CSS3",
+            "Tailwind CSS",
+            "Sass/SCSS",
+            "Styled Components",
+            "Material-UI",
+            "Redux",
+            "Zustand",
+            "React Query",
+            "Motion/Framer Motion",
+            "Webpack",
+            "Vite",
+            "ESLint",
+            "Prettier"
+        ]
+    },
+    {
+        "category": "Backend",
+        "technologies": [
+            "Node.js",
+            "Express.js",
+            "REST APIs",
+            "PostgreSQL",
+            "MongoDB",
+            "MySQL",
+            "Firebase",
+            "AWS (Lambda, S3, EC2)",
+            "Docker",
+            "CI/CD",
+            "Jest"
+        ]
+    },
+    {
+        "category": "Tools & Others",
+        "technologies": [
+            "Git",
+            "GitHub",
+            "GitLab",
+            "Figma",
+            "Adobe XD",
+            "VS Code",
+            "Postman",
+            "Jira",
+            "Vercel",
+            "Netlify",
+            "Linux",
+            "Agile/Scrum",
+            "WebSockets",
+            "Microservices",
+            "Responsive Design",
+            "Web Accessibility (WCAG)",
+            "Performance Optimization",
+            "SEO"
+        ]
+    }
+]

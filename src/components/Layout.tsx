@@ -66,7 +66,7 @@ export const Layout: React.FC<LayoutProps> = ({ children }) => {
                         animate={{ opacity: 1, scale: 1 }}
                         exit={{ opacity: 0, scale: 0.5 }}
                         onClick={scrollToTop}
-                        className="fixed bottom-8 right-8 z-50 p-4 bg-indigo-600 rounded-full text-white shadow-lg border-2 border-indigo-400 hover:bg-indigo-700 transition-colors"
+                        className="fixed bottom-8 right-8 z-50 p-4 bg-fuchsia-800 rounded-full text-white shadow-lg border-2 border-fuchsia-600 hover:bg-fuchsia-900 transition-colors"
                         whileHover={{ scale: 1.1 }}
                         whileTap={{ scale: 0.9 }}
                     >

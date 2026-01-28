@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Sholapith - an E-Commerce Platform",
+        "description": "A full-featured e-commerce platform for sholapith products with real payments.",
+        "image": "https://image.thum.io/get/width/800/https://sholapith.com",
+        "tags": [
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Stripe",
+            "Node.js",
+            "MongoDB"
+        ],
+        "github": "https://github.com",
+        "live": "https://sholapith.com"
+    },
+    {
+        "title": "NimittaFx - a VFX Company Website",
+        "description": "A website for a VFX company showcasing their projects and services.",
+        "image": "https://api.microlink.io/?url=https://nimittafx.com&screenshot=true&embed=screenshot.url&meta=false",
+        "tags": [
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Redux",
+            "Figma"
+        ],
+        "github": "https://github.com",
+        "live": "https://nimittafx.com"
+    },
+    {
+        "title": "AmitVFX - portfolio website",
+        "description": "Portfolio website for VFX artist Amit.",
+        "image": "https://api.microlink.io/?url=https://amitvfx.com&screenshot=true&embed=screenshot.url&meta=false",
+        "tags": [
+            "Next.js",
+            "TypeScript",
+            "Tailwind CSS",
+            "Figma"
+        ],
+        "github": "https://github.com",
+        "live": "https://amitvfx.com"
+    }
+]

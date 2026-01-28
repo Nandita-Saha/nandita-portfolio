@@ -12,7 +12,7 @@ const GridDots = () => {
         let animationFrameId: number;
         const colors = ['#808080', '#FFCCCB', '#87CEEB']; // Gray, Light Red, Sky Blue
         const gridSize = 75.6; // ~2cm
-        const dotSize = 7.5; // ~2mm
+        const dotSize = 3.75; // ~2mm
 
         interface Dot {
             x: number;

@@ -1,0 +1,38 @@
+{
+    "contactInfo": [
+        {
+            "icon": "Mail",
+            "label": "Email",
+            "value": "sahan4648@gmail.com",
+            "href": "mailto:sahan4648@gmail.com"
+        },
+        {
+            "icon": "Phone",
+            "label": "Phone",
+            "value": "+91 9876543210",
+            "href": "tel:+919876543210"
+        }
+    ],
+    "socialLinks": [
+        {
+            "icon": "Github",
+            "label": "GitHub",
+            "href": "https://github.com/Nandita-Saha"
+        },
+        {
+            "icon": "Linkedin",
+            "label": "LinkedIn",
+            "href": "https://linkedin.com/in/nandita-saha"
+        },
+        {
+            "icon": "Youtube",
+            "label": "Youtube",
+            "href": "https://youtube.com/@nanditasaha1609"
+        },
+        {
+            "icon": "Instagram",
+            "label": "Instagram",
+            "href": "https://instagram.com/nandita_saha"
+        }
+    ]
+}

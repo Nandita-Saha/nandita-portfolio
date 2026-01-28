@@ -1,29 +1,19 @@
 import { motion } from 'motion/react';
 import { Code2, Rocket, Users, Award } from 'lucide-react';
+import highlightData from '../data/highlight.json';
+
+const iconMap: { [key: string]: any } = {
+  Code2,
+  Rocket,
+  Users,
+  Award,
+};
 
 export function Highlight() {
-  const highlights = [
-    {
-      icon: Code2,
-      title: '4+ Years Experience',
-      description: 'Building scalable and maintainable web applications',
-    },
-    {
-      icon: Rocket,
-      title: 'Performance Focused',
-      description: 'Optimizing for speed, accessibility, and user experience',
-    },
-    {
-      icon: Users,
-      title: 'Team Leadership',
-      description: 'Mentoring junior developers and leading frontend initiatives',
-    },
-    {
-      icon: Award,
-      title: 'Best Practices',
-      description: 'Following industry standards and modern development patterns',
-    },
-  ];
+  const highlights = highlightData.map(item => ({
+    ...item,
+    icon: iconMap[item.icon]
+  }));
 
   return (
     <section id="about" className="py-20">
@@ -35,7 +25,7 @@ export function Highlight() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-5 bg-gradient-to-r from-rose-500 to-pink-600 bg-clip-text text-transparent">About Me</h2>
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-5 bg-gradient-to-r from-rose-500 to-pink-600 bg-clip-text text-transparent leading-[1.5]">About Me</h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
             I'm a passionate frontend developer with a strong focus on creating exceptional digital experiences.
             With expertise in React, TypeScript, and modern web technologies, I transform complex problems into
@@ -67,7 +57,7 @@ export function Highlight() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.4 }}
-          className="mt-16 bg-gradient-to-r from-fuchsia-600 to-fuchsia-800 rounded-2xl p-8 md:p-12 text-white"
+          className="mt-16 bg-gradient-to-r from-rose-500 to-pink-600 rounded-2xl p-8 md:p-12 text-white"
         >
           <h3 className="text-3xl font-bold mb-4">My Approach</h3>
           <p className="text-lg mb-6 opacity-90">

@@ -31,7 +31,7 @@ export function Hero() {
           transition={{ duration: 0.8 }}
           className="inline-block mx-auto items-center px-6 py-1 mb-4 md:mb-5 rounded-full transition-colors bg-black/30
   border-2 border-fuchsia-500
-  shadow-[0_0_20px_rgba(244,63,94,0.3)]">
+  shadow-[0_0_20px_rgba(244,63,94,0.3)] cursor-default">
           <Star className="w-3 h-3 inline-block mr-2" color="#facc15" fill="#facc15" />
           <span className="text-sm text-white font-medium inline-block">
             Welcome to my World
@@ -81,12 +81,8 @@ export function Hero() {
 
           <button
             onClick={scrollToAbout}
-            className="group gap-2 px-6 md:px-8 py-3 md:py-4 rounded-full font-bold text-lg transition-all duration-300 shadow-lg hover:scale-105 active:scale-95"
-            style={{
-              backgroundColor: '#B943F9',
-              color: '#000000',
-              boxShadow: '0 10px 15px -3px rgba(249,67,222, 0.5)'
-            }}
+            className="group gap-2 px-6 md:px-8 py-3 md:py-4 rounded-full font-bold text-lg transition-all duration-300 shadow-lg hover:scale-105 active:scale-95 bg-fuchsia-800 text-white border-1 border-white cursor-pointer"
+            style={{ boxShadow: '0 10px 15px -3px rgba(249,67,222, 0.5)' }}
           >
             Download CV </button>
         </motion.div>

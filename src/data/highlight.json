@@ -1,0 +1,22 @@
+[
+    {
+        "icon": "Code2",
+        "title": "4+ Years Experience",
+        "description": "Building scalable and maintainable web applications"
+    },
+    {
+        "icon": "Rocket",
+        "title": "Performance Focused",
+        "description": "Optimizing for speed, accessibility, and user experience"
+    },
+    {
+        "icon": "Users",
+        "title": "Team Leadership",
+        "description": "Mentoring junior developers and leading frontend initiatives"
+    },
+    {
+        "icon": "Award",
+        "title": "Best Practices",
+        "description": "Following industry standards and modern development patterns"
+    }
+]
