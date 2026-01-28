@@ -1,0 +1,11 @@
+# www.robotstxt.org/
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow admin or private paths (if any)
+# Disallow: /admin/
+
+# Sitemap location (update after deployment)
+Sitemap: https://nanditasaha.vercel.app/sitemap.xml

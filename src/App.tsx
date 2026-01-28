@@ -7,10 +7,13 @@ import { TechStack } from './components/TechStack';
 import { ContactMe } from './components/ContactMe';
 import { Footer } from './components/Footer';
 import { Layout } from './components/Layout';
+import { StructuredData } from './components/StructuredData';
+import { structuredData } from './structuredData';
 
 export default function App() {
   return (
     <Layout>
+      <StructuredData data={structuredData} />
       <Navigation />
       <Hero />
       <Highlight />
