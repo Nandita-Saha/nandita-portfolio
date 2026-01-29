@@ -11,6 +11,15 @@ export function Hero() {
     }
   };
 
+  const downloadCV = () => {
+    const link = document.createElement('a');
+    link.href = '/Nandita-Saha-Resume-26.pdf';
+    link.download = 'Nandita-Saha-Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section
       id="hero"
@@ -80,7 +89,7 @@ export function Hero() {
           </AnimatedBorderButton> */}
 
           <button
-            onClick={scrollToAbout}
+            onClick={downloadCV}
             className="group gap-2 px-6 md:px-8 py-3 md:py-4 rounded-full font-bold text-lg transition-all duration-300 shadow-lg hover:scale-105 active:scale-95 bg-fuchsia-800 text-white border-1 border-white cursor-pointer"
             style={{ boxShadow: '0 10px 15px -3px rgba(249,67,222, 0.5)' }}
           >

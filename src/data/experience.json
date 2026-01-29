@@ -10,8 +10,8 @@
             "Collaborated with UX/UI designers to implement complex, responsive designs with pixel-perfect accuracy."
         ],
         "images": [
-            "https://images.unsplash.com/photo-1596495578065-6e0763fa1178?auto=format&fit=crop&q=80&w=300&h=200",
-            "https://images.unsplash.com/photo-1551818255-e6e10975bc17?auto=format&fit=crop&q=80&w=300&h=200"
+            "/experience1-img1.png",
+            "/experience1-img2.png"
         ]
     },
     {
@@ -25,8 +25,8 @@
             "Worked with UX/UI designers to implement complex, responsive designs with pixel-perfect accuracy."
         ],
         "images": [
-            "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=300&h=200",
-            "https://images.unsplash.com/photo-1607799275518-d58726213f69?auto=format&fit=crop&q=80&w=300&h=200"
+            "/experience2-img1.jpg",
+            "/experience2-img2.png"
         ]
     },
     {
@@ -40,8 +40,8 @@
             "Maintained and updated existing codebases, troubleshooting bugs and implementing feature requests."
         ],
         "images": [
-            "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=300&h=200",
-            "https://images.unsplash.com/photo-1504639725590-34d0984388bd?auto=format&fit=crop&q=80&w=300&h=200"
+            "/experience3-img1.png",
+            "/experience3-img2.jpg"
         ]
     }
 ]
